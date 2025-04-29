@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+@tailwind typography;
+
+html.dark {
+    color-scheme: dark;      /* lets the browser render form controls dark too */
+  }
+  
+  /* optional: smooth transition when toggling */
+  * {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+      
